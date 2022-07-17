@@ -3,9 +3,9 @@ package javaPractice;
 import java.util.ArrayList;
 import java.util.List;
 
-import static javaPractice.Solutions.lonelyInteger;
+import static javaPractice.LonelyInteger.lonelyInteger;
 
-public class Runner {
+public class LonelyIntegerRunner {
 
     public static void main (String[] args) {
 

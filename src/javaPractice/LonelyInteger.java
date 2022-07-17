@@ -2,7 +2,7 @@ package javaPractice;
 
 import java.util.List;
 
-public class Solutions {
+public class LonelyInteger {
 
     public static int lonelyInteger(List<Integer> a) {
 
