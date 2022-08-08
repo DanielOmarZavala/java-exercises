@@ -17,7 +17,7 @@ public class LonelyInteger {
         int arLen = a.size();
 
         int res = a.get(0);
-        for (int i = 1; i < arLen; i++){
+        for (int i = 1; i < arLen; i++) {
             System.out.println("res BEFORE XOR = " + res);
             System.out.println("Element at index " + i + " is " + a.get(i));
 
