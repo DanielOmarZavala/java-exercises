@@ -1,6 +1,5 @@
 package prep;
 
-import static prep.SmallestMissingPositiveInteger.smallestMissingPositive;
 import static prep.SmallestTest.smallestTest;
 
 
