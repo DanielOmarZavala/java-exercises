@@ -7,7 +7,7 @@ public class Runner {
 
     public static void main(String[] args) {
 
-        UsaaRevelation.newArr(arr1, arr2);
-//        UsaaRevelation.newArr(ArryList.arryList());
+        ArryManipulation.newArr(arr1, arr2);
+//        ArryManipulation.newArr(ArryList.arryList());
     }
 }

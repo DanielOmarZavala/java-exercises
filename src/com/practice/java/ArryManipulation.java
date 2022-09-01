@@ -1,6 +1,8 @@
 package com.practice.java;
 
-public class UsaaRevelation {
+import java.util.Arrays;
+
+public class ArryManipulation {
 
 //asked with creating a method that will take in two ordered lists of the same length and
 //return a new ordered list of unique elements that are shared between the lists.
@@ -14,6 +16,10 @@ public class UsaaRevelation {
 
         int arrLen = arr1.length;
         int arrLen2 = arr2.length;
+
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+
 
         for (int i = 0; i < arrLen; i++) {
 
