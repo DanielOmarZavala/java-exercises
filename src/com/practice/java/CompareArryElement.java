@@ -20,7 +20,11 @@ public class CompareArryElement {
         List<Integer> sanitizedListOne = sanitizedListOne(arr1, arr2);
         List<Integer> sanitizedListTwo = sanitizedListOne(arr2, arr1);
 
-        sanitizedListOne.addAll(sanitizedListTwo);
+        List<Integer> uniqueList = new ArrayList<>(sanitizedListOne);
+
+        uniqueList.addAll(sanitizedListTwo);
+
+        System.out.println(uniqueList);
     }
 
     /*----- Compare 2 arrays and return two unique ArrayLists filled with values that do not repeat between the two -----*/

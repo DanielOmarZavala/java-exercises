@@ -8,6 +8,5 @@ public class ArryRunner {
     public static void arryRunner(){
 
         CompareArryElement.sanitizedListOne(ArryList.arryListOne(), ArryList.arryListTwo());
-        CompareArryElement.sanitizedListTwo(ArryList.arryListOne(), ArryList.arryListTwo());
     }
 }
