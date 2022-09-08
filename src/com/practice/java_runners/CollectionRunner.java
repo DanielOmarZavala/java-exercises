@@ -7,5 +7,6 @@ public class CollectionRunner {
 
     public static void collectionRunner() {
 
+        MergeUniqueLists.mergeUniqueLists(ArryMaster.arryListOne(), ArryMaster.arryListTwo());
     }
 }

@@ -2,8 +2,9 @@ package com.practice.java_runners;
 
 public class MasterRunner {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        ArryRunner.arryRunner();
+//        ArryRunner.arryRunner();
+        CollectionRunner.collectionRunner();
     }
 }

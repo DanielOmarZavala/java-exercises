@@ -1,6 +1,6 @@
 package com.practice.lists;
 
-public class ArryList {
+public class ArryMaster {
 
     static int[] arr1 = {2, 4, 6, 8};
     static int[] arr2 = {3, 4, 5, 6};
