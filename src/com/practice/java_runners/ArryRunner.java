@@ -7,6 +7,7 @@ public class ArryRunner {
 
     public static void arryRunner(){
 
-        ArryManipulation.newArr(ArryList.arryListOne(), ArryList.arryListTwo());
+        CompareArryElement.sanitizedListOne(ArryList.arryListOne(), ArryList.arryListTwo());
+        CompareArryElement.sanitizedListTwo(ArryList.arryListOne(), ArryList.arryListTwo());
     }
 }
